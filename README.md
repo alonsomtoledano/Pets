@@ -1,5 +1,5 @@
 <div style="font-size:40px">
-    <img src="src/images/logo_transparent.png" width="73"  align="right" style="vertical-align: top;">
+    <img src="https://raw.githubusercontent.com/AlonsoMartinToledano/Pets/master/Pets-frontend/src/logo_transparent.png" width="73"  align="right" style="vertical-align: top;">
 </div>
 
 #  :dog: Pets :rabbit:
@@ -29,10 +29,6 @@ npm install --save @apollo/client
 3. Install GraphQL
 ```
 npm install --save graphql
-```
-4. Global state
-```
-npm install --save***********************************************
 ```
 4. Start the app
 ```
@@ -92,12 +88,12 @@ A not logged in user can
 ## :point_down: Clone
 You can clone the back repository
 ```
-*************************************************************
+https://github.com/AlonsoMartinToledano/Pets.git
 ```
 
 ## :page_facing_up: License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/AlonsoMartinToledano/Pets/blob/master/LICENSE.md) file for details**************************************
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/AlonsoMartinToledano/Pets/blob/master/LICENSE.md) file for details
 
 ## :woman_technologist: Authors :man_technologist:
 - [Andrés Bravo](https://github.com/andresbravom)
