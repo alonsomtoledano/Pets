@@ -100,4 +100,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 - [Alonso Martín-Toledano](https://github.com/AlonsoMartinToledano)
 - [Laura Rodríguez](https://github.com/LauraRgz)
 
-**[Back to top](#Table-of-contents)**
+**[Back to top](#:memo:-Table-of-contents)**
