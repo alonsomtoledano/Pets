@@ -1,0 +1,67 @@
+.Settings {
+    display: flex;
+    justify-content: center;
+}
+
+.Text {
+    margin: 3px;
+    width: 190px;
+    font-size: 1.5em;
+}
+
+.Input {
+    padding-left: 10px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.Botton {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 183px;
+}
+
+.BottonBack {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 160px;
+}
+
+.Botton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.BottonBack:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.Status {
+    display: flex;
+    justify-content: center;
+
+    width: 413px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgb(80, 78, 78);
+}

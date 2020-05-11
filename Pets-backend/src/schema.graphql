@@ -1,0 +1,56 @@
+type Animal{
+    _id: ID!
+    name: String!
+    species: String!
+    breed: String!
+    age: Int!
+    description: String!
+    image: String!
+}
+
+type User {
+  _id: ID!
+  name: String!
+  surname: String!
+  email: String!
+  password: String!
+  bankAccount: String!
+  token: ID!
+}
+
+type AnimalShelter{
+    name: String!
+    description: String!
+    phone: String!
+    address: String!
+    hours: String!
+}
+
+type Query {
+    getAnimals(shelter: Int!): [Animal!] 
+    getAnimal(animalID: ID!, shelter: Int!): Animal!
+    getSpecies(species: String!, shelter: Int!): [Animal!]
+    getShelterData(shelter: Int!): AnimalShelter!
+    getUsersName(name: String!): User
+    getUsers: [User]
+    getUserToken(token: String!): User
+}
+
+type Mutation {
+  addUser(
+    name: String!
+    surname: String!
+    email: String!
+    password: String!
+    bankAccount: String
+  ): User
+  login(email: String!, password: String!): String
+  logout(token: String!): User
+  updateUser(
+    token: String!
+    name: String
+    surname: String
+    password: String
+    bankAccount: String
+  ): User
+}

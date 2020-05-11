@@ -1,0 +1,89 @@
+.Login {
+    display: flex;
+    justify-content: center;
+}
+
+.Module{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 15px;
+    width: 700px;
+    height: 500px;
+}
+
+.Fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding:  5px;
+}
+
+.Field {
+    display: flex;
+    flex-direction: row;
+
+    padding:  5px;
+}
+
+.Text {
+    margin: 3px;
+    width: 120px;
+    font-size: 1.5em;
+}
+
+.Botton {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 150px;
+}
+
+.BottonLogin {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 205px;
+}
+
+.Status {
+    display: flex;
+    justify-content: center;
+
+    width: 413px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgb(80, 78, 78);
+}
+
+.Botton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.BottonLogin:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.Input {
+    padding-left: 10px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

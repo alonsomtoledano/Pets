@@ -1,0 +1,40 @@
+.District {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.DistrictButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 34%;
+    height: 100%;
+}
+
+.DistrictButtonSelected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(158, 220, 223);
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 34%;
+    height: 100%;
+}
+
+.DistrictButton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.DistrictButtonSelected:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}

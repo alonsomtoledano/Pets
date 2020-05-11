@@ -1,0 +1,130 @@
+.TopInfo {
+    display: flex;
+}
+
+.ImagePetIndividual {
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.ImagePetIndividual:hover {
+    cursor: pointer;
+}
+
+.PetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 45%;
+    height: 130px;
+}
+
+.PetButton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.PetButtonSelected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(158, 220, 223);
+    margin-top: 10px;
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 45%;
+    height: 130px;
+}
+
+.PetButtonSelected:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.PetBodyInfo {
+    padding-left: 10px;
+}
+
+.PetInfoText {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.AdoptOptions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AdoptButton {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.3em;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 150px;
+}
+
+.AdoptButton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.PetBodySponsor2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AdoptCheck {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+.AdoptMessage {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
+    font-size: 1.2em;
+
+    color: rgb(80, 78, 78);
+}
+
+.PetSponsor {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.InputPet {
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 15px;
+    width: 50px;
+}
+
+.PetBodySponsor {
+    padding-left: 10px;
+}

@@ -1,0 +1,52 @@
+.Body {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 100%;
+}
+
+.AllPets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DonateButton {
+    display: flex;
+    justify-content: center;
+    
+
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-style: inset;
+    border-width: 2px;
+    width: 110px;
+}
+
+.DonateButton:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.DonateOptions {
+    padding-left: 10px;
+}
+
+.ContentDonateButton {
+    display: flex;
+    justify-content: center;
+}
+
+.InputResources {
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 55px;
+    width: 450px;
+}

@@ -1,0 +1,40 @@
+.Species {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.Specie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 50%;
+    height: 100%;
+}
+
+.SpecieSelected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(158, 220, 223);
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+    border-width: 2px;
+    width: 50%;
+    height: 100%;
+}
+
+.Specie:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
+
+.SpecieSelected:hover {
+    background-color: #c3edea;
+    cursor: pointer;
+}
